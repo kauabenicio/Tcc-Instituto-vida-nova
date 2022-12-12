@@ -1,0 +1,131 @@
+.collapse {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  background-color: rgba(255, 208, 0, 0.938);
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.nav-item a::after {
+  content: " ";
+  width: 0px;
+  height: 4px;
+  background-image: linear-gradient(45deg, #ff2500, #ffffff);
+  position: absolute;
+  top: 40px;
+  left: 0;
+  transition: width 0.5s;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
+}
+
+.nav-item a:hover {
+  color: #ffffff;
+  transition: 1s;
+}
+
+.imgrow1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 9vh;
+  height: 9vh;
+}
+.imgrow2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 9vh;
+  height: 9vh;
+}
+.imgrow3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 9vh;
+  height: 9vh;
+}
+
+.imgrowfe1 {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-radius: 20px 20px;
+}
+.imgrowfe2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 50vh;
+  border-style: solid;
+  border-radius: 10px 10px;
+  border-color: rgb(223, 86, 51);
+}
+.imgrowfe3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 110%;
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px 10px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 40rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+}
