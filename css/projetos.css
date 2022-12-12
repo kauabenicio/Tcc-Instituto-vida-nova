@@ -73,7 +73,7 @@ p {
   text-align: center;
 }
 /* hover navbar */
-.nav-item a::after {
+/* .nav-item a::after {
   content: " ";
   width: 0px;
   height: 4px;
@@ -89,5 +89,5 @@ p {
 .nav-item a:hover {
   color: #ffffff;
   transition: 1s;
-}
+} */
 /* houver navebar */
